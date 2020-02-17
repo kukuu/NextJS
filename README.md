@@ -2,7 +2,7 @@
 
 NextJS is a minimalistic framework for rendering REACT applications on the server - an Isomorphic framework.
 
-## Corre Features
+## Core Features
 
 ```
 1. Server rendered REACT apps
