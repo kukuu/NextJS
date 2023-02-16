@@ -43,3 +43,7 @@ We will try to dockerize it
 - heroku create
 - heroku stack:set container
 - git push heroku master
+
+# Docker Image link
+- https://hub.docker.com/repositories/techlever45
+- command: docker pull techlever45/awesome-links-web:version1
