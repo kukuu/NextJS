@@ -1,0 +1,42 @@
+describe('Navigation', () => {
+    it('open home page', () => {
+
+      cy.visit('http://localhost:3000/')
+      cy.get('button').contains('more')
+  
+    })
+  })
+
+  describe('Home page', () => {
+    it('open home page and sees title Awesome People', () => {
+      cy.visit('http://localhost:3000/')
+      cy.get('h1').contains('Awesome People')
+    })
+    it('Load more button should appear', () => {
+      cy.visit('http://localhost:3000/')
+      cy.get('button').contains('more')
+    })
+  })
+
+  describe('Navigation to about page', () => {
+    it('open about page', () => {
+
+      cy.visit('http://localhost:3000/')
+      cy.get('.nav-link').contains('About').click()
+      cy.get('h1').contains('Who am I?')
+  
+    })
+  })
+
+  describe('Data fetching test', () => {
+    it('When Load more button is clicked, it should display 20 person', () => {
+      cy.visit('http://localhost:3000')
+      cy.get('button').contains('Load more').click()
+      cy.get('.person').should('have.length', 20)
+    })
+    it('When load more is clicked 2nd time, it should load another 20 person and display 40 person', () => {
+      cy.visit('http://localhost:3000')
+      cy.get('button').contains('Load more').click()
+      cy.get('.person').should('have.length', 40)
+    })
+  })
