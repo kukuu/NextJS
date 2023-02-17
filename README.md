@@ -23,3 +23,44 @@ NextJS is a minimalistic framework for rendering REACT applications on the serve
 
 2. Working with APIs - https://github.com/kukuu/NextJS/tree/master/BitzApp
 
+## e2e  Life Cycle Commands:
+
+Development:
+
+1.  npm install
+2. npm run dev
+3. split terminal
+4. npm run e2e (or npm run cypress)
+
+...................................
+
+For production build
+(kill all terminal first)
+
+5. npm run build
+6. npm run start
+7. npm run e2e (in other terminal)
+
+.......................................
+
+
+For unit test, no need to start server manually. Simply run following command:
+
+8. npm run test
+
+.......................................
+
+For Docker:
+ 
+9. docker build -t nextjs-docker .
+10. docker run -p 3000:3000 nextjs-docker
+
+..........................................
+
+
+Deploy to Heroku
+
+- heroku login
+- heroku create
+- heroku stack:set container
+- git push heroku master
