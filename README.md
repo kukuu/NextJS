@@ -17,25 +17,26 @@ NextJS is a minimalistic framework for rendering REACT applications on the serve
 
 ```
 
+## Technologies:
+
+- Next.js,  
+- REACT 
+- Apollo GraphQL 
+- Apollo Client
+- Suspense 
+- Tailwind 
+- Cypress 
+- Jest 
+- Casual
+- APIs 
+- Docker 
+- Heroku.
+
 ## Applications:
 
 1. Awesome App - https://github.com/kukuu/NextJS/tree/master/final-NEXT_GRAPHQL_HEROKU-main
 2. Next-rematch - https://github.com/kukuu/next-rematch
 3. Working with APIs - https://github.com/kukuu/NextJS/tree/master/BitzApp
-
-
-
-Working with:
-- Next.js,  
-- REACT 
-- Apollo GraphQL 
-- Suspense 
-- Tailwind 
-- Cypress 
-- Jest 
-- APIs 
-- Docker 
--  Heroku.
 
 ## e2e  Life Cycle Commands:
 
