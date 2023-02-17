@@ -19,11 +19,11 @@ NextJS is a minimalistic framework for rendering REACT applications on the serve
 
 ## Applications:
 
-1. Next-rematch - https://github.com/kukuu/next-rematch
+1. Awesome App - https://github.com/kukuu/NextJS/tree/master/final-NEXT_GRAPHQL_HEROKU-main
+2. Next-rematch - https://github.com/kukuu/next-rematch
+3. Working with APIs - https://github.com/kukuu/NextJS/tree/master/BitzApp
 
-2. Working with APIs - https://github.com/kukuu/NextJS/tree/master/BitzApp
 
-3. Awesome App - https://github.com/kukuu/NextJS/tree/master/v3-NEXT_GRAPHQL_HEROKU-main
 
 Working with:
 - Next.js,  
