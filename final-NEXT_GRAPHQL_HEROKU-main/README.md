@@ -22,6 +22,7 @@ We will try to dockerize it
 - npm run dev (for fast refresh)
 - npm run build (production build)
 - npm run start ( after production build)
+- npm run test ( unit testing)
 
 # Build Docker Container
 
@@ -31,9 +32,16 @@ We will try to dockerize it
 
 - docker run -p 3000:3000 nextjs-docker
 
+# Pushing Docker Image to Docker Hub
+- Docker Login
+- docker tag nextjs-docker alexmorgan/nextjs-docker:version1.0
+- docker push alexmorgan/nextjs-docker
+- Go to Docker hub and then refresh
+
 # Push Docker Link Image
 
 - docker push techlever45/awesome-links-web:version1
+
 
 # Docker Image link
 
