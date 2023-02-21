@@ -51,7 +51,7 @@ We will try to dockerize it
 # e2e testing using Cypress
 
 - npm run e2e [ this will run the test in headless mode]
-- npm run cypress [ this will run the test after opening Browser]
+- npm run cypress [ this will run the test after opening in default Browser]
 
 # Deploy to Heroku
 
