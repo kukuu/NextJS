@@ -24,7 +24,7 @@ NextJS is a minimalistic framework for rendering REACT applications on the serve
 - Apollo GraphQL 
 - Apollo Client
 - Suspense 
-- Tailwind 
+- Tailwind CSS
 - Cypress 
 - Jest 
 - Casual
