@@ -81,6 +81,26 @@ Deploy to Heroku
 - git push heroku master
 
 
+Pros of Next.js
+
+Quick turnaround time
+Omnichannel capabilities
+Excellent community support
+Default options for image optimization
+A vast component-based library
+Built-in features include CSS support, TypeScript support, and Incremental
+Static Generation.
+Highly flexible
+Great for customized user experience building
+
+Cons of Next.js
+
+Requires continuous management
+More expensive development and modifications
+Lacks built-in state manager
+Lacks the options of plugins
+
+
 ## References
 
 [Apollo Server](https://www.apollographql.com/docs/apollo-server/) - to build GraphQL API that can use data from any source
